@@ -38,50 +38,95 @@ JWT – Para autenticação segura dos usuários
 
 
 Sistema de Gestão de Gado
+<br>
 1. Requisitos da Aplicação
+   <br>
 1.1 Requisitos Funcionais
+   <br>
 •	RF01: Cadastro de animais (ID, raça, idade, peso, status de saúde, valor de mercado, etc.).
+<br>
 •	RF02: Registro de transações de compra e venda de gado.
+<br>
 •	RF03: Controle de alimentação e vacinação dos animais.
+<br>
 •	RF04: Relatórios de desempenho e histórico de vendas.
+<br>
 •	RF05: Autenticação de usuários para garantir segurança no acesso aos dados.
+<br>
 •	RF06: Painel administrativo para gerenciar registros e transações.
+<br>
 1.2 Requisitos Não Funcionais
+   <br>
 •	RNF01: Interface responsiva para acesso em dispositivos móveis.
+<br>
 •	RN0F2: Armazenamento seguro dos dados com backup periódico.
+<br>
 •	RNF03: Performance otimizada para consultas rápidas ao banco de dados.
+<br>
 •	RNF04:Logs de operações para auditoria e rastreabilidade.
+<br>
 •	RNF05: Facilidade de manutenção e escalabilidade do sistema.
-________________________________________
-2. Estratégias de Desenvolvimento
+<br>
+
+3. Estratégias de Desenvolvimento
+<br>
 2.1 Tipo de Arquitetura
-monolítica, pois é mais simples de implementar e facilita o desenvolvimento inicial, dado que o escopo é relativamente pequeno. 
+monolítica.
+<br>
 2.2 Tecnologias Escolhidas e Justificativas
+   <br>
 Front-end:
+<br>
 •	HTML, CSS e JavaScript – Base para estrutura e interatividade do sistema.
+<br>
 •	React.js – Framework para criar uma interface moderna e dinâmica.
+<br>
 •	TailwindCSS – Biblioteca para estilização rápida e eficiente.
+<br>
 Back-end:
+<br>
 •	Node.js com Express.js – Para construção da API REST, garantindo leveza e eficiência.
+<br>
 •	PostgreSQL – Banco de dados relacional para armazenar os dados com segurança e integridade.
+<br>
 •	Sequelize – ORM para facilitar a interação com o banco de dados.
+<br>
 •	JWT (JSON Web Token) – Para autenticação segura dos usuários.
+<br>
 Infraestrutura:
+<br>
 •	XAMPP – Para rodar o servidor localmente durante o desenvolvimento.
+<br>
 •	GitHub – Para versionamento do código e colaboração.
-________________________________________
+<br>
+
 3. Plano de Trabalho
+   <br>
 Como o desenvolvimento será individual, o trabalho será distribuído da seguinte forma:
+<br>
 Parte 1:
+<br>
 •	Estruturar o banco de dados no PostgreSQL.
+<br>
 •	Criar o ambiente de desenvolvimento no VS Code e XAMPP.
-Parte 2: 
+<br>
+Parte 2:
+<br>
 •	Implementar o backend com Node.js e Express.js.
+<br>
 •	Configurar autenticação com JWT.
+<br>
 Parte 3:
+<br>
 •	Desenvolver o frontend com React.js e TailwindCSS.
+<br>
 •	Criar telas de cadastro e listagem de gado.
-Parte 4: 
+<br>
+Parte 4:
+<br>
 •	Integrar frontend e backend.
+<br>
 •	Testes e ajustes finais.
+<br>
 •	Publicação no GitHub e finalização da documentação.
+<br>
