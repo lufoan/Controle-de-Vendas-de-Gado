@@ -47,7 +47,7 @@ Sistema de Gestão de Gado
 <br>
 •	RF02: Registro de transações de compra e venda de gado.
 <br>
-•	RF03: Controle de alimentação e vacinação dos animais.
+•	RF03: Controle de vacinação dos animais.
 <br>
 •	RF04: Relatórios de desempenho e histórico de vendas.
 <br>
