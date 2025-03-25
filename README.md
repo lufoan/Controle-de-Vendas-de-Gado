@@ -95,38 +95,6 @@ Back-end:
 <br>
 Infraestrutura:
 <br>
-•	XAMPP – Para rodar o servidor localmente durante o desenvolvimento.
-<br>
 •	GitHub – Para versionamento do código e colaboração.
 <br>
 
-3. Plano de Trabalho
-   <br>
-Como o desenvolvimento será individual, o trabalho será distribuído da seguinte forma:
-<br>
-Parte 1:
-<br>
-•	Estruturar o banco de dados no PostgreSQL.
-<br>
-•	Criar o ambiente de desenvolvimento no VS Code e XAMPP.
-<br>
-Parte 2:
-<br>
-•	Implementar o backend com Node.js e Express.js.
-<br>
-•	Configurar autenticação com JWT.
-<br>
-Parte 3:
-<br>
-•	Desenvolver o frontend com React.js e TailwindCSS.
-<br>
-•	Criar telas de cadastro e listagem de gado.
-<br>
-Parte 4:
-<br>
-•	Integrar frontend e backend.
-<br>
-•	Testes e ajustes finais.
-<br>
-•	Publicação no GitHub e finalização da documentação.
-<br>
